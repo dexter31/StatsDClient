@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" readonly="true" id="f8f0c4fe-04cc-4f11-996e-d324f2136f88" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="DELETED" beforePath="C:\Development\StatsDClient\java-statsd-client.pom" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="StatsDClient.iws" />
@@ -100,16 +101,39 @@
       <file leaf-file-name="NIOStatsDClientTest.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/hp/wfm/test/NIOStatsDClientTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="51" column="38" selection-start="1571" selection-end="1576" vertical-scroll-proportion="0.0" vertical-offset="867" max-vertical-offset="3859">
+            <state line="51" column="38" selection-start="1571" selection-end="1576" vertical-scroll-proportion="0.0" vertical-offset="867" max-vertical-offset="3519">
+              <folding>
+                <element signature="imports" expanded="false" />
+                <element signature="e#6090#6098#0" expanded="false" />
+                <element signature="e#6393#6810#0" expanded="false" />
+                <element signature="e#6795#6796#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Test.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/hp/wfm/test/Test.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="16" column="129" selection-start="563" selection-end="563" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="612">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Test.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/hp/wfm/test/Test.java">
+      <file leaf-file-name="README.md" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="65" selection-start="518" selection-end="518" vertical-scroll-proportion="0.44117647" vertical-offset="0" max-vertical-offset="612">
+            <state line="20" column="78" selection-start="594" selection-end="594" vertical-scroll-proportion="0.66536206" vertical-offset="0" max-vertical-offset="731">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LICENSE" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/LICENSE">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="6" column="112" selection-start="431" selection-end="431" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="425">
               <folding />
             </state>
           </provider>
@@ -118,8 +142,12 @@
       <file leaf-file-name="NIOStatsDClient.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/hp/wfm/statsd/NIOStatsDClient.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="93" column="50" selection-start="4271" selection-end="4291" vertical-scroll-proportion="0.0" vertical-offset="1581" max-vertical-offset="3774">
-              <folding />
+            <state line="93" column="50" selection-start="4271" selection-end="4291" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3706">
+              <folding>
+                <element signature="imports" expanded="false" />
+                <element signature="e#1550#1654#0" expanded="false" />
+                <element signature="e#1647#1648#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -136,8 +164,12 @@
       <file leaf-file-name="NonBlockingUdpSender.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/hp/wfm/statsd/NonBlockingUdpSender.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="35" column="45" selection-start="1125" selection-end="1125" vertical-scroll-proportion="0.0" vertical-offset="595" max-vertical-offset="935">
-              <folding />
+            <state line="26" column="31" selection-start="751" selection-end="771" vertical-scroll-proportion="0.0" vertical-offset="204" max-vertical-offset="765">
+              <folding>
+                <element signature="imports" expanded="false" />
+                <element signature="e#1320#1518#0" expanded="false" />
+                <element signature="e#1507#1508#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -196,6 +228,7 @@
         <option value="$PROJECT_DIR$/src/main/java/com/hp/wfm/statsd/NonBlockingUdpSender.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/hp/wfm/test/Test.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/hp/wfm/statsd/NIOStatsDClient.java" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -243,53 +276,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="PackagesPane">
-        <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="StatsDClient" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="StatsD" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="StatsDClient" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="StatsD" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="com.hp.wfm" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="StatsDClient" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="StatsD" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="com.hp.wfm" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="statsd" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -400,6 +386,53 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="StatsDClient" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="StatsD" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="StatsDClient" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="StatsD" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="com.hp.wfm" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="StatsDClient" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="StatsD" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="com.hp.wfm" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="statsd" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -413,7 +446,7 @@
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="options.lastSelected" value="settings.github" />
+    <property name="options.lastSelected" value="reference.settingsdialog.project.gradle" />
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
@@ -499,6 +532,19 @@
       <option name="PORT" value="5005" />
       <method />
     </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method />
+    </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <module name="" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -524,19 +570,6 @@
       <envs />
       <properties />
       <listeners />
-      <method />
-    </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -668,14 +701,14 @@
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32963374" sideWeight="0.5" order="15" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32963374" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3529412" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24920128" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Compare Directories" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24920128" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3529412" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="ASM" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32963374" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Run with VisualVM" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32963374" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24973376" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -684,7 +717,7 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32924226" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Debug with VisualVM" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24919957" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24866596" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32963374" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Documentation" active="true" anchor="right" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" x="92" y="92" width="1736" height="856" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
@@ -749,7 +782,11 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/com/hp/wfm/statsd/NonBlockingUdpSender.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="35" column="45" selection-start="1125" selection-end="1125" vertical-scroll-proportion="0.0" vertical-offset="595" max-vertical-offset="935">
-          <folding />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#1320#1518#0" expanded="false" />
+            <element signature="e#1507#1508#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -777,7 +814,12 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/com/hp/wfm/test/NIOStatsDClientTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="51" column="38" selection-start="1571" selection-end="1576" vertical-scroll-proportion="0.0" vertical-offset="867" max-vertical-offset="3859">
-          <folding />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#6090#6098#0" expanded="false" />
+            <element signature="e#6393#6810#0" expanded="false" />
+            <element signature="e#6795#6796#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -791,7 +833,11 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/com/hp/wfm/statsd/NIOStatsDClient.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="93" column="50" selection-start="4271" selection-end="4291" vertical-scroll-proportion="0.0" vertical-offset="1581" max-vertical-offset="3774">
-          <folding />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#1550#1654#0" expanded="false" />
+            <element signature="e#1647#1648#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -805,7 +851,11 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/com/hp/wfm/statsd/NonBlockingUdpSender.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="35" column="45" selection-start="1125" selection-end="1125" vertical-scroll-proportion="0.0" vertical-offset="595" max-vertical-offset="935">
-          <folding />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#1320#1518#0" expanded="false" />
+            <element signature="e#1507#1508#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -833,14 +883,23 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/com/hp/wfm/test/NIOStatsDClientTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="33" column="71" selection-start="1049" selection-end="1049" vertical-scroll-proportion="0.0" vertical-offset="561" max-vertical-offset="3859">
-          <folding />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#6090#6098#0" expanded="false" />
+            <element signature="e#6393#6810#0" expanded="false" />
+            <element signature="e#6795#6796#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/hp/wfm/statsd/NIOStatsDClient.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="22" column="74" selection-start="1045" selection-end="1045" vertical-scroll-proportion="0.0" vertical-offset="374" max-vertical-offset="3774">
-          <folding />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#1550#1654#0" expanded="false" />
+            <element signature="e#1647#1648#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -861,7 +920,11 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/com/hp/wfm/statsd/NonBlockingUdpSender.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="30" column="90" selection-start="1000" selection-end="1000" vertical-scroll-proportion="0.0" vertical-offset="94" max-vertical-offset="935">
-          <folding />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#1320#1518#0" expanded="false" />
+            <element signature="e#1507#1508#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -882,14 +945,23 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/com/hp/wfm/test/NIOStatsDClientTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="178" column="5" selection-start="5627" selection-end="5627" vertical-scroll-proportion="0.0" vertical-offset="3026" max-vertical-offset="3859">
-          <folding />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#6090#6098#0" expanded="false" />
+            <element signature="e#6393#6810#0" expanded="false" />
+            <element signature="e#6795#6796#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/hp/wfm/statsd/NIOStatsDClient.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="194" column="11" selection-start="7717" selection-end="7717" vertical-scroll-proportion="0.0" vertical-offset="3298" max-vertical-offset="3774">
-          <folding />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#1550#1654#0" expanded="false" />
+            <element signature="e#1647#1648#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -910,21 +982,34 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/com/hp/wfm/statsd/NonBlockingUdpSender.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="19" column="44" selection-start="530" selection-end="530" vertical-scroll-proportion="0.0" vertical-offset="323" max-vertical-offset="935">
-          <folding />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#1320#1518#0" expanded="false" />
+            <element signature="e#1507#1508#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/hp/wfm/test/NIOStatsDClientTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="178" column="5" selection-start="5627" selection-end="5627" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3859">
-          <folding />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#6090#6098#0" expanded="false" />
+            <element signature="e#6393#6810#0" expanded="false" />
+            <element signature="e#6795#6796#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/hp/wfm/statsd/NIOStatsDClient.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="194" column="11" selection-start="7717" selection-end="7717" vertical-scroll-proportion="0.0" vertical-offset="3298" max-vertical-offset="3774">
-          <folding />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#1550#1654#0" expanded="false" />
+            <element signature="e#1647#1648#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -945,28 +1030,45 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/com/hp/wfm/statsd/NonBlockingUdpSender.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="19" column="44" selection-start="530" selection-end="530" vertical-scroll-proportion="0.0" vertical-offset="323" max-vertical-offset="935">
-          <folding />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#1320#1518#0" expanded="false" />
+            <element signature="e#1507#1508#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/hp/wfm/test/NIOStatsDClientTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="134" column="34" selection-start="3793" selection-end="3812" vertical-scroll-proportion="0.0" vertical-offset="2278" max-vertical-offset="3842">
-          <folding />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#6090#6098#0" expanded="false" />
+            <element signature="e#6393#6810#0" expanded="false" />
+            <element signature="e#6795#6796#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/hp/wfm/statsd/NIOStatsDClient.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="171" column="145" selection-start="6976" selection-end="6976" vertical-scroll-proportion="0.0" vertical-offset="2907" max-vertical-offset="3723">
-          <folding />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#1550#1654#0" expanded="false" />
+            <element signature="e#1647#1648#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/hp/wfm/statsd/NonBlockingUdpSender.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="7" column="62" selection-start="308" selection-end="308" vertical-scroll-proportion="0.0" vertical-offset="119" max-vertical-offset="901">
-          <folding />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#1320#1518#0" expanded="false" />
+            <element signature="e#1507#1508#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -977,21 +1079,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/hp/wfm/statsd/StatsDClientErrorHandler.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="17" selection-start="182" selection-end="182" vertical-scroll-proportion="0.15542857" vertical-offset="0" max-vertical-offset="875">
-          <folding />
-        </state>
+        <state line="8" column="17" selection-start="182" selection-end="182" vertical-scroll-proportion="0.15542857" vertical-offset="0" max-vertical-offset="875" />
       </provider>
     </entry>
     <entry file="jar://C:/Tools/vert.x-2.1RC3/lib/vertx-core-2.1RC3.jar!/org/vertx/java/core/datagram/DatagramSocket.class">
       <provider selected="true" editor-type-id="text-editor">
         <state line="5" column="25" selection-start="175" selection-end="175" vertical-scroll-proportion="0.1574074" vertical-offset="0" max-vertical-offset="1071" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/java-statsd-client.pom">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="83" selection-start="305" selection-end="305" vertical-scroll-proportion="0.21061946" vertical-offset="0" max-vertical-offset="595">
-          <folding />
-        </state>
       </provider>
     </entry>
     <entry file="jar://C:/Glassfish/jdk7/jre/lib/rt.jar!/java/lang/String.class">
@@ -1006,14 +1099,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/hp/wfm/statsd/StatsDClientException.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="72" selection-start="460" selection-end="460" vertical-scroll-proportion="0.64705884" vertical-offset="0" max-vertical-offset="578">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="731" />
+        <state line="22" column="72" selection-start="460" selection-end="460" vertical-scroll-proportion="0.64705884" vertical-offset="0" max-vertical-offset="578" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/hp/wfm/statsd/NoOpStatsDClient.java">
@@ -1028,13 +1114,6 @@
         <state line="26" column="68" selection-start="917" selection-end="917" vertical-scroll-proportion="0.5331725" vertical-offset="0" max-vertical-offset="986" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/hp/wfm/test/NIOStatsDClientTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="51" column="38" selection-start="1571" selection-end="1576" vertical-scroll-proportion="0.0" vertical-offset="867" max-vertical-offset="3859">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/build.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="3" column="33" selection-start="136" selection-end="136" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1887">
@@ -1045,13 +1124,6 @@
     <entry file="jar://$PROJECT_DIR$/lib/vertx-core-2.1RC3.jar!/org/vertx/java/core/datagram/DatagramSocket.class">
       <provider selected="true" editor-type-id="text-editor">
         <state line="16" column="13" selection-start="795" selection-end="795" vertical-scroll-proportion="0.3462733" vertical-offset="49" max-vertical-offset="1071" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/hp/wfm/statsd/NonBlockingUdpSender.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="35" column="45" selection-start="1125" selection-end="1125" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="799">
-          <folding />
-        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/hp/wfm/statsd/ConvenienceMethodProvidingStatsDClient.java">
@@ -1068,16 +1140,57 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/LICENSE">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="112" selection-start="431" selection-end="431" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="425">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/hp/wfm/statsd/NonBlockingUdpSender.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="26" column="31" selection-start="751" selection-end="771" vertical-scroll-proportion="0.0" vertical-offset="204" max-vertical-offset="765">
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#1320#1518#0" expanded="false" />
+            <element signature="e#1507#1508#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/hp/wfm/statsd/NIOStatsDClient.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="93" column="50" selection-start="4271" selection-end="4291" vertical-scroll-proportion="0.0" vertical-offset="1148" max-vertical-offset="3706">
-          <folding />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#1550#1654#0" expanded="false" />
+            <element signature="e#1647#1648#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/hp/wfm/test/NIOStatsDClientTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="51" column="38" selection-start="1571" selection-end="1576" vertical-scroll-proportion="0.0" vertical-offset="867" max-vertical-offset="3859">
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#6090#6098#0" expanded="false" />
+            <element signature="e#6393#6810#0" expanded="false" />
+            <element signature="e#6795#6796#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/hp/wfm/test/Test.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="65" selection-start="518" selection-end="518" vertical-scroll-proportion="0.44117647" vertical-offset="0" max-vertical-offset="612">
+        <state line="16" column="129" selection-start="563" selection-end="563" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="612">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="78" selection-start="594" selection-end="594" vertical-scroll-proportion="0.66536206" vertical-offset="0" max-vertical-offset="731">
           <folding />
         </state>
       </provider>
@@ -1140,6 +1253,7 @@
             <option name="proportions">
               <list>
                 <option value="0.2" />
+                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>

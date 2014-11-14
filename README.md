@@ -1,37 +1,37 @@
 java-statsd-client
 ==================
 
-[![Build Status](https://travis-ci.org/tim-group/java-statsd-client.svg?branch=master)](https://travis-ci.org/tim-group/java-statsd-client)
-
-A statsd client library implemented in Java.  Allows for Java applications to easily communicate with statsd.
-
-Downloads
----------
-The client jar is distributed via maven central, and can be downloaded [here](http://search.maven.org/#search%7Cga%7C1%7Cg%3Acom.timgroup%20a%3Ajava-statsd-client).
-
-```xml
-<dependency>
-    <groupId>com.timgroup</groupId>
-    <artifactId>java-statsd-client</artifactId>
-    <version>3.0.1</version>
-</dependency>
+A statsd java client extended from tim groups implementation using vertx i/o.
 ```
 
 Usage
 -----
 ```java
-import com.timgroup.statsd.StatsDClient;
-import com.timgroup.statsd.NonBlockingStatsDClient;
 
-public class Foo {
-  private static final StatsDClient statsd = new NonBlockingStatsDClient("my.prefix", "statsd-host", 8125);
+import com.hp.wfm.statsd.NIOStatsDClient;
 
-  public static final void main(String[] args) {
-    statsd.incrementCounter("bar");
-    statsd.recordGaugeValue("baz", 100);
-    statsd.recordExecutionTime("bag", 25);
-    statsd.recordSetEvent("qux", "one");
-  }
+public class Test {
+
+    private static final int STATSD_SERVER_PORT = 8125;         //needs to be a config
+    private static String environment = "dev";
+    private static String asset = "wfm";
+    private static final String STATSD_SERVER_HOST = "c0039559.itcs.hp.com";
+
+    private static final NIOStatsDClient client = new NIOStatsDClient(environment+"."+asset, STATSD_SERVER_HOST, STATSD_SERVER_PORT);
+
+    public static void main(String args[]) {
+
+        client.recordExecutionTime("ActionProcessor.Response", new Long("53421"));
+        client.increment("ActionProcessor.200");
+        client.gauge("ActionProcessor.Worklist.Response.size" , new Long("1233"));
+        //client.recordSetEvent("ActionProcessor.Worklist.Response.size" , new Long("1233"));
+
+        try {
+            Thread.sleep(new Long(1000));
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+    }
 }
-```
+
 
