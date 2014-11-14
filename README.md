@@ -1,8 +1,8 @@
-java-statsd-client
+nio-statsd-client
 ==================
 
 A statsd java client extended from tim groups implementation using vertx i/o.
-```
+
 
 Usage
 -----
