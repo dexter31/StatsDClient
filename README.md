@@ -3,7 +3,7 @@ nio-statsd-client
 
 A statsd java client extended from tim groups implementation using vertx i/o.
 
-Since vertx is a polygot the same can be accessed via python, scala, ruby or javascript. Look at the ConvinienceMethodProvider to choose your favourites.
+Since vertx is a polygot the same can be accessed via python, scala, ruby or javascript. Look at the ConvinienceMethodProvider to choose your own favourites.
 
 
 Usage
